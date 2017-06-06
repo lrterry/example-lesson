@@ -8,7 +8,7 @@ int main(int argc, char** argv) {
 		printf("Error, too many arguments. This program only requires a single argument.\n");
 		return 2;
 	}
-	
+	printf("Hello world on the way. \n");	
 	printf("%s\n", argv[1]);
 	return 0;
 } 
